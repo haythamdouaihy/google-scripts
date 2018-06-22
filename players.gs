@@ -1,4 +1,5 @@
-eturns Array of all players Abbv.
+/**
+ * Returns Array of all players Abbv.
  *
  * @return {Array} an array of all players Abbv.
  * @customfunction
@@ -48,5 +49,4 @@ function getPlayersListByStatus(firstRowIndex, lastRowIndex, firstColumnIndex, l
 function testGetPlayersListByStatus(){
   Logger.log(getPlayersListByStatus(1,39,2,8,'L'));
 }
-
 
